@@ -1,0 +1,13 @@
+{% extends "blog/base.html" %}
+
+{% block contenido %}
+
+<h2>Resultados</h2>
+
+{% for post in posts %}
+
+<p>{{ post.titulo }}</p>
+
+{% endfor %}
+
+{% endblock %}
